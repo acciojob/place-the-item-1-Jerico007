@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.item-3{
+	background-color:green;
+	height:50%;
+	width:20%;
+	margin:2px;
+}
+
+.item-1{
+		background-color:red;
+	margin:2px;
+	height:50%;
+	width:20%;
+}
+
+.item-2{
+		background-color:purple;
+	height:50%;
+	width:20%;
+	margin:2px;
+}
+
